@@ -26,7 +26,7 @@ local function main()
   local config = gCamera:getDefaultConfig()
   config:setMaps({ "z_u16", "image_rgba"})
   config:setStereoIntegrationTime(2000)
-  config:setColorIntegrationTime(50000)
+  config:setColorIntegrationTime(5000)
   -- settings for fullres RGB
   config:setColorImagerMode('RGGB')
   gCamera:setAutoConvertRGB(false)
